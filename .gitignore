@@ -1,0 +1,16 @@
+# Data from the Hugging Face dataset (hf download Amine-CV/MODG ...) and run outputs
+data/subset/
+results/
+.cache/
+# local secret (VLLM token) — never commit
+.run_env
+__pycache__/
+*.pyc
+.pytest_cache/
+# LaTeX build files
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.blg
+*.out

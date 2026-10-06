@@ -51,9 +51,9 @@ paper/        LaTeX sources and PDFs of the paper and supplement
 ```bash
 pip install -r requirements.txt
 pip install huggingface_hub
-# Download the data. It mirrors this repo's paths (data/subset/..., results/...),
-# so it drops into place:
-hf download Amine-CV/MODG --repo-type dataset --local-dir .
+# Download the data. It mirrors this repo's paths (data/subset/..., results/...), so it drops into place;
+# the excludes keep the dataset card from overwriting this README:
+hf download Amine-CV/MODG --repo-type dataset --local-dir . --exclude README.md --exclude .gitattributes
 pytest -q
 ```
 
