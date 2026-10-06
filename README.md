@@ -3,7 +3,7 @@
 Code, analysis pipeline and paper for **"Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search
 Compared to Humans."**
 
-**Data:** [huggingface.co/datasets/Amine-CV/MODG](https://huggingface.co/datasets/Amine-CV/MODG)
+**Paper:** [arXiv:2608.16514](https://arxiv.org/abs/2608.16514) · **Data:** [huggingface.co/datasets/Amine-CV/MODG](https://huggingface.co/datasets/Amine-CV/MODG)
 
 ## What this is
 
@@ -114,20 +114,17 @@ To include a new model in the comparison, add its slug to `analysis.compare_slug
 
 ## Citation
 
-If you use this code or data, please cite the paper (BibTeX will be added here on publication) and the
-COCO-Search18 dataset:
+If you use this code or data, please cite our paper:
 
 ```bibtex
-@article{chen2021cocosearch18,
-  author  = {Chen, Yupei and Yang, Zhibo and Ahn, Seoyoung and Samaras, Dimitris and Hoai, Minh and Zelinsky, Gregory},
-  title   = {{COCO-Search18} fixation dataset for predicting goal-directed attention control},
-  journal = {Scientific Reports}, volume = {11}, number = {1}, pages = {8776}, year = {2021},
-  doi     = {10.1038/s41598-021-87715-9}
-}
-@inproceedings{yang2020irl,
-  author    = {Yang, Zhibo and Huang, Lihan and Chen, Yupei and Wei, Zijun and Ahn, Seoyoung and Zelinsky, Gregory and Samaras, Dimitris and Hoai, Minh},
-  title     = {Predicting Goal-directed Human Attention Using Inverse Reinforcement Learning},
-  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, year = {2020}
+@misc{kerkouri2026matchedoutcomesdivergentgaze,
+  title         = {Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans},
+  author        = {Mohamed Amine Kerkouri and Marouane Tliba and Aladine Chetouani and Ulas Bagci and Alessandro Bruno},
+  year          = {2026},
+  eprint        = {2608.16514},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2608.16514}
 }
 ```
 
