@@ -1,0 +1,113 @@
+# config.yaml — single source of truth for every knob (CLAUDE.md mandate).
+# Analysis reads frozen outputs only; this file documents how they were produced.
+
+seed: 0
+
+# Canonical coordinate space: all COCO-Search18 gaze was recorded on images
+# resized to 1680x1050 (zero-padded, aspect-ratio preserved). Normalize by these.
+canonical_size:
+  w: 1680
+  h: 1050
+
+paths:
+  fixations_dir: data/human_fixations
+  images_dir: data/subset/images        # <images_dir>/<TP|TA>/<category>/<name>.jpg (from the HF dataset)
+  coco_annotations_dir: data/coco_annotations
+  ids_tp: data/image_ids_tp.json
+  ids_ta: data/image_ids_ta.json
+  manifest: data/subset_manifest.json
+
+subset:
+  pool: validation          # validation | train+val  (test fixations are withheld upstream)
+  per_category_tp: 8        # split across 4 cells (ecc x clutter) -> 2/cell
+  per_category_ta: 8        # split across 2 cells (clutter)       -> 4/cell
+  require_subjects: 10      # keep only images with exactly this many human scanpaths
+  backfill: false           # if true, top up under-filled categories from their fullest cell
+
+# ---------------------------------------------------------------------------
+# Agentic harness (build-plan steps 2-4). Byte-identical across all models.
+# ---------------------------------------------------------------------------
+
+model:
+  base_url: "http://localhost:8000/v1"   # your vLLM OpenAI-compatible endpoint (scripts/serve_model.sh)
+  api_key: "EMPTY"                  # real token read from env VLLM_API_KEY (never committed)
+  served_id: "google/gemma-4-E4B-it" # 3rd model = small instruct VLM axis point (Gemma-4-E4B-it, 128K ctx);
+                                    #   harness/prompt/foveation byte-identical to the Qwen3.5 + GLM runs.
+  slug: "gemma-4-e4b-it"            # filesystem-safe name for results paths
+  max_tokens: 24576                 # reasoning + directive in ONE call. 4096->10k->16k->24k: empty-at-cap
+                                    #   drops persisted for hard target-absent / heavy-gist cases where the
+                                    #   model deliberates very long ("is X anywhere?"). Drops are ~all TA
+                                    #   (short, 1-2 images) so 24k output stays well within context.
+  retry_max_tokens: 65536           # FAILURE RECOVERY: a step that returns empty/unparseable means the
+                                    #   reasoning didn't terminate within budget (the over-reasoning / loop
+                                    #   signature). Redo it once with a much larger budget (endpoint ctx=256k).
+  retry_temperature: 0.9            #   ...and perturb sampling on the redo to break a degenerate reasoning loop.
+  temperature: 0.6                  # sampling -> N seeds give N agent scanpaths (~= human subjects)
+  top_p: 0.95
+  top_k: 20                         # via extra_body (matches the working serving config)
+  min_p: 0                          # via extra_body
+  image_max_side: 1024              # downscale glimpse before encode -> bounds multi-image context
+  request_timeout_s: 180            # reasoning generations can be slow
+  retries: 3                        # exponential backoff 2**attempt
+
+harness:
+  render_format: "JPEG"             # byte-identical encoding for every model
+  jpeg_quality: 95
+  initial_fixation: [0.5, 0.5]      # forced central start at step 0 (NOT a search policy)
+  max_fixations_tp: 50              # uniform safety cap: stop after 50 glimpses (incl. step-0 center)
+  max_fixations_ta: 50              # same for TP and TA; the model still decides when to stop earlier
+  on_malformed: "retry_then_stop"   # one nudge retry; if still unparseable -> drop episode (now rare at 10k)
+
+# Foveation = the agent stimulus. The modes form a graded constraint bracket; ONLY
+# `geisler_perry` is human-matched (and the finding is that it does not bind a parallel encoder).
+# Geometry: COCO-Search18 presented 1680x1050 images subtending ~54x35 deg of visual angle
+# (Chen et al. 2021, Scientific Reports) => ~30 px/deg.
+foveation:
+  mode: "geisler_perry"             # sharp | geisler_perry | gaussian | crop | periphery
+  px_per_degree: 30                 # COCO-Search18 rig (Chen et al. 2021): 1680/54 ~= 31, 1050/35 = 30
+  view_dist_m: 0.6                  # viewing distance (m); with px_per_degree sets the atan perspective
+  # Geisler & Perry (1998) acuity falloff (canonical log2 form: local image cutoff = eye cutoff):
+  gp_e2: 2.3                        # half-resolution eccentricity (deg)
+  gp_alpha: 0.106                   # spatial-frequency decay (per cyc/deg)
+  gp_ct0: 0.0156                    # minimal contrast threshold (1/64)
+  gist_k: 8                         # gaussian: peripheral acuity reduced by factor k (pilot sweeps {4,8,16})
+  # --- controls (crop, periphery) ---
+  foveal_radius_deg: 2.5            # foveal radius in deg -> round(px_per_degree*deg) px (scales with ppd)
+  edge_softness_px: 24              # soft mask ramp width (crop / periphery)
+  surround_blur_px: 24              # peripheral blur radius (periphery)
+  crop_shape: "disk"                # crop: disk | box
+  crop_fill_rgb: [128, 128, 128]    # crop: fill for the hidden periphery
+
+# Inhibition of Return. window K = how many recent fixations are remembered / suppressed.
+# PRIMARY human-comparison run MUST be full memory + no mask (memory_window_k:null, enabled:false).
+ior:
+  memory_window_k: null             # null = full multi-image history; int = keep last K turns' images
+  enabled: false                    # visual mask OFF in the primary run
+  method: "blur"                    # blur | dim
+  radius_px: 105                    # suppression-disk radius (defaults to foveal radius)
+  recent_k: 3                       # suppress only the most recent K visited fixations
+  blur_px: 16                       # GaussianBlur radius when method=blur
+  dim_rgb: [128, 128, 128]          # overlay color when method=dim
+  dim_alpha: 128                    # 0-255 blend strength toward dim_rgb
+  edge_softness_px: 16
+  slug: "fullmem_nomask"            # filesystem-safe name for this IoR cell
+
+run:
+  seeds: [0, 1, 2, 3, 4]            # N seeds -> N agent scanpaths per image
+  conditions: ["TP", "TA"]
+  results_dir: "results/raw"
+  log_raw_responses: true
+
+# Analysis (offline). Single source of truth for the condition bracket + order. compute_metrics.py /
+# compare.py iterate exactly these dirs (filtered to those on disk); temperature-sweep dirs
+# (fov-*-t<T>) never pollute it. Full-scale bracket = the 9 conditions run at 285 images (HiCV §2
+# drops k4/k64 as redundant plateau/tail); pilot-only k4/k64 dirs stay on disk but are excluded so
+# every condition is reported at the same 285-image scale.
+analysis:
+  bracket: ["fov-sharp", "fov-geisler_perry",
+            "fov-gaussian-k8", "fov-gaussian-k16", "fov-gaussian-k24",
+            "fov-gaussian-k32", "fov-gaussian-k48", "fov-gaussian-k128", "fov-crop"]
+  # Models included in the cross-model comparison (scripts/compare_models.py). Any slug whose
+  # results/raw/<slug>/ has bracket conditions is used; partial runs contribute whatever exists.
+  # Leave empty/absent to auto-discover every model dir under results/raw/.
+  compare_slugs: ["qwen3.5-35b-a3b", "glm-4.6v-flash", "gemma-4-e4b-it"]   # gemma-4-e4b-it excluded until its run finishes

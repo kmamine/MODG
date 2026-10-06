@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2026 Mohamed Amine Kerkouri
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party data (NOT covered by the MIT grant above)
+-------------------------------------------------------------------------------
+
+The MIT license above covers the source code in this repository and the
+model-generated outputs released with it (agent scanpaths, raw model responses,
+baseline answers and derived metrics).
+
+It does NOT cover the third-party data used by this project, which remains
+under the licenses and terms set by its original authors:
+
+  * COCO-Search18 human eye-movement data (fixation scanpaths, target boxes,
+    responses), by Chen, Yang, Ahn, Samaras, Hoai and Zelinsky
+    (Scientific Reports, 2021; Yang et al., CVPR 2020). Use is governed by the
+    terms published by the COCO-Search18 authors:
+    https://sites.google.com/view/cocosearch/
+
+  * The stimulus images, which come from MS-COCO and are subject to the COCO
+    terms of use and to the licenses of the individual Flickr images:
+    https://cocodataset.org/#termsofuse
+
+Copies or subsets of these data distributed alongside this project (for
+example in the companion Hugging Face dataset) are provided for research
+reproducibility only. Anyone using them must comply with, and cite, the
+original sources.

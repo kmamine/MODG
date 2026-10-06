@@ -1,0 +1,231 @@
+{
+  "config": {
+    "canonical_size": {
+      "h": 1050,
+      "w": 1680
+    },
+    "paths": {
+      "coco_annotations_dir": "data/coco_annotations",
+      "fixations_dir": "data/human_fixations",
+      "ids_ta": "data/image_ids_ta.json",
+      "ids_tp": "data/image_ids_tp.json",
+      "images_dir": "data/images",
+      "manifest": "data/subset_manifest.json"
+    },
+    "seed": 0,
+    "subset": {
+      "backfill": false,
+      "per_category_ta": 8,
+      "per_category_tp": 8,
+      "pool": "validation",
+      "require_subjects": 10
+    }
+  },
+  "counts": {
+    "TA": {
+      "candidate_images": 325,
+      "selected": 144
+    },
+    "TP": {
+      "candidate_images": 324,
+      "selected": 141
+    }
+  },
+  "dropped_wrong_subject_count": {
+    "TA": 1,
+    "TP": 2
+  },
+  "pool": "validation",
+  "seed": 0,
+  "shortfalls": [
+    {
+      "available": 1,
+      "category": "bowl",
+      "cell": "far-high",
+      "condition": "TP",
+      "wanted": 2
+    },
+    {
+      "available": 1,
+      "category": "laptop",
+      "cell": "near-high",
+      "condition": "TP",
+      "wanted": 2
+    },
+    {
+      "available": 1,
+      "category": "oven",
+      "cell": "near-high",
+      "condition": "TP",
+      "wanted": 2
+    }
+  ],
+  "thresholds": {
+    "TA": {
+      "bottle": {
+        "clutter_median": 7,
+        "n_pool": 17
+      },
+      "bowl": {
+        "clutter_median": 7,
+        "n_pool": 15
+      },
+      "car": {
+        "clutter_median": 3.0,
+        "n_pool": 12
+      },
+      "chair": {
+        "clutter_median": 6,
+        "n_pool": 25
+      },
+      "clock": {
+        "clutter_median": 15,
+        "n_pool": 13
+      },
+      "cup": {
+        "clutter_median": 7.5,
+        "n_pool": 28
+      },
+      "fork": {
+        "clutter_median": 12,
+        "n_pool": 23
+      },
+      "keyboard": {
+        "clutter_median": 8.0,
+        "n_pool": 20
+      },
+      "knife": {
+        "clutter_median": 10,
+        "n_pool": 15
+      },
+      "laptop": {
+        "clutter_median": 9,
+        "n_pool": 13
+      },
+      "microwave": {
+        "clutter_median": 7.0,
+        "n_pool": 16
+      },
+      "mouse": {
+        "clutter_median": 6.5,
+        "n_pool": 12
+      },
+      "oven": {
+        "clutter_median": 15,
+        "n_pool": 11
+      },
+      "potted plant": {
+        "clutter_median": 8,
+        "n_pool": 17
+      },
+      "sink": {
+        "clutter_median": 8,
+        "n_pool": 29
+      },
+      "stop sign": {
+        "clutter_median": 10,
+        "n_pool": 13
+      },
+      "toilet": {
+        "clutter_median": 9,
+        "n_pool": 17
+      },
+      "tv": {
+        "clutter_median": 6,
+        "n_pool": 29
+      }
+    },
+    "TP": {
+      "bottle": {
+        "clutter_median": 7,
+        "ecc_median": 0.348937,
+        "n_pool": 17
+      },
+      "bowl": {
+        "clutter_median": 8,
+        "ecc_median": 0.388467,
+        "n_pool": 15
+      },
+      "car": {
+        "clutter_median": 2.5,
+        "ecc_median": 0.400064,
+        "n_pool": 12
+      },
+      "chair": {
+        "clutter_median": 5.5,
+        "ecc_median": 0.355198,
+        "n_pool": 24
+      },
+      "clock": {
+        "clutter_median": 1,
+        "ecc_median": 0.295211,
+        "n_pool": 13
+      },
+      "cup": {
+        "clutter_median": 6.0,
+        "ecc_median": 0.364274,
+        "n_pool": 28
+      },
+      "fork": {
+        "clutter_median": 7,
+        "ecc_median": 0.396028,
+        "n_pool": 23
+      },
+      "keyboard": {
+        "clutter_median": 7.0,
+        "ecc_median": 0.30389,
+        "n_pool": 20
+      },
+      "knife": {
+        "clutter_median": 7,
+        "ecc_median": 0.396806,
+        "n_pool": 15
+      },
+      "laptop": {
+        "clutter_median": 9,
+        "ecc_median": 0.259432,
+        "n_pool": 13
+      },
+      "microwave": {
+        "clutter_median": 6.5,
+        "ecc_median": 0.348648,
+        "n_pool": 16
+      },
+      "mouse": {
+        "clutter_median": 3.0,
+        "ecc_median": 0.364456,
+        "n_pool": 12
+      },
+      "oven": {
+        "clutter_median": 16,
+        "ecc_median": 0.350545,
+        "n_pool": 11
+      },
+      "potted plant": {
+        "clutter_median": 8,
+        "ecc_median": 0.342455,
+        "n_pool": 17
+      },
+      "sink": {
+        "clutter_median": 3,
+        "ecc_median": 0.321162,
+        "n_pool": 29
+      },
+      "stop sign": {
+        "clutter_median": 2,
+        "ecc_median": 0.31052,
+        "n_pool": 13
+      },
+      "toilet": {
+        "clutter_median": 3,
+        "ecc_median": 0.340681,
+        "n_pool": 17
+      },
+      "tv": {
+        "clutter_median": 9,
+        "ecc_median": 0.331307,
+        "n_pool": 29
+      }
+    }
+  }
+}

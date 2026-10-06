@@ -1,0 +1,2681 @@
+[
+  {
+    "bbox": [
+      1263,
+      134,
+      121,
+      147
+    ],
+    "clutter_bin": "high",
+    "coco_id": 332968,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.417447,
+    "image_id": "000000332968.jpg",
+    "n_subjects": 10,
+    "object_count": 14,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      315,
+      52,
+      150,
+      367
+    ],
+    "clutter_bin": "high",
+    "coco_id": 350270,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.384403,
+    "image_id": "000000350270.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      108,
+      26,
+      278,
+      511
+    ],
+    "clutter_bin": "low",
+    "coco_id": 53491,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.422341,
+    "image_id": "000000053491.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      1292,
+      0,
+      239,
+      423
+    ],
+    "clutter_bin": "low",
+    "coco_id": 328838,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.452622,
+    "image_id": "000000328838.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      246,
+      354,
+      101,
+      206
+    ],
+    "clutter_bin": "high",
+    "coco_id": 19544,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.32993,
+    "image_id": "000000019544.jpg",
+    "n_subjects": 10,
+    "object_count": 14,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      1276,
+      442,
+      173,
+      301
+    ],
+    "clutter_bin": "high",
+    "coco_id": 148067,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.317586,
+    "image_id": "000000148067.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      1187,
+      357,
+      206,
+      262
+    ],
+    "clutter_bin": "low",
+    "coco_id": 530905,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.270165,
+    "image_id": "000000530905.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      370,
+      65,
+      187,
+      567
+    ],
+    "clutter_bin": "low",
+    "coco_id": 573206,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.280143,
+    "image_id": "000000573206.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "bottle"
+  },
+  {
+    "bbox": [
+      367,
+      0,
+      278,
+      170
+    ],
+    "clutter_bin": "high",
+    "coco_id": 125755,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.463817,
+    "image_id": "000000125755.jpg",
+    "n_subjects": 10,
+    "object_count": 16,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      948,
+      0,
+      426,
+      213
+    ],
+    "clutter_bin": "low",
+    "coco_id": 213831,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.442004,
+    "image_id": "000000213831.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      114,
+      55,
+      429,
+      242
+    ],
+    "clutter_bin": "low",
+    "coco_id": 472733,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.45075,
+    "image_id": "000000472733.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      1138,
+      590,
+      203,
+      88
+    ],
+    "clutter_bin": "high",
+    "coco_id": 242422,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.259469,
+    "image_id": "000000242422.jpg",
+    "n_subjects": 10,
+    "object_count": 20,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      177,
+      544,
+      360,
+      187
+    ],
+    "clutter_bin": "high",
+    "coco_id": 276127,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.306816,
+    "image_id": "000000276127.jpg",
+    "n_subjects": 10,
+    "object_count": 12,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      623,
+      0,
+      390,
+      239
+    ],
+    "clutter_bin": "low",
+    "coco_id": 419848,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.386412,
+    "image_id": "000000419848.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      1027,
+      367,
+      426,
+      344
+    ],
+    "clutter_bin": "low",
+    "coco_id": 533206,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.238468,
+    "image_id": "000000533206.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "bowl"
+  },
+  {
+    "bbox": [
+      144,
+      0,
+      574,
+      242
+    ],
+    "clutter_bin": "high",
+    "coco_id": 335473,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.455314,
+    "image_id": "000000335473.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      49,
+      449,
+      144,
+      131
+    ],
+    "clutter_bin": "high",
+    "coco_id": 436162,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.428093,
+    "image_id": "000000436162.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      1309,
+      826,
+      160,
+      111
+    ],
+    "clutter_bin": "low",
+    "coco_id": 6810,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.471238,
+    "image_id": "000000006810.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      1443,
+      557,
+      88,
+      229
+    ],
+    "clutter_bin": "low",
+    "coco_id": 127751,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.409614,
+    "image_id": "000000127751.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      1046,
+      492,
+      246,
+      269
+    ],
+    "clutter_bin": "high",
+    "coco_id": 180878,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.218392,
+    "image_id": "000000180878.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      774,
+      232,
+      193,
+      137
+    ],
+    "clutter_bin": "high",
+    "coco_id": 301421,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.214579,
+    "image_id": "000000301421.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      1217,
+      426,
+      315,
+      141
+    ],
+    "clutter_bin": "low",
+    "coco_id": 197666,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.31931,
+    "image_id": "000000197666.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      1040,
+      685,
+      308,
+      114
+    ],
+    "clutter_bin": "low",
+    "coco_id": 297681,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.295147,
+    "image_id": "000000297681.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "car"
+  },
+  {
+    "bbox": [
+      147,
+      541,
+      262,
+      351
+    ],
+    "clutter_bin": "high",
+    "coco_id": 36844,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.38101,
+    "image_id": "000000036844.jpg",
+    "n_subjects": 10,
+    "object_count": 14,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      141,
+      452,
+      164,
+      436
+    ],
+    "clutter_bin": "high",
+    "coco_id": 130456,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.392367,
+    "image_id": "000000130456.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      219,
+      590,
+      351,
+      390
+    ],
+    "clutter_bin": "low",
+    "coco_id": 33345,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.362815,
+    "image_id": "000000033345.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      1141,
+      3,
+      285,
+      226
+    ],
+    "clutter_bin": "low",
+    "coco_id": 224557,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.470551,
+    "image_id": "000000224557.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      370,
+      488,
+      203,
+      219
+    ],
+    "clutter_bin": "high",
+    "coco_id": 96402,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.229956,
+    "image_id": "000000096402.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      1155,
+      492,
+      252,
+      351
+    ],
+    "clutter_bin": "high",
+    "coco_id": 327413,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.295507,
+    "image_id": "000000327413.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      1171,
+      462,
+      118,
+      311
+    ],
+    "clutter_bin": "low",
+    "coco_id": 74458,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.248296,
+    "image_id": "000000074458.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      1200,
+      420,
+      203,
+      344
+    ],
+    "clutter_bin": "low",
+    "coco_id": 173640,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.282016,
+    "image_id": "000000173640.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "chair"
+  },
+  {
+    "bbox": [
+      1155,
+      177,
+      160,
+      154
+    ],
+    "clutter_bin": "high",
+    "coco_id": 56036,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.349133,
+    "image_id": "000000056036.jpg",
+    "n_subjects": 10,
+    "object_count": 15,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      249,
+      187,
+      131,
+      131
+    ],
+    "clutter_bin": "high",
+    "coco_id": 373857,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.406442,
+    "image_id": "000000373857.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      1115,
+      105,
+      180,
+      170
+    ],
+    "clutter_bin": "low",
+    "coco_id": 256590,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.385998,
+    "image_id": "000000256590.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      1296,
+      259,
+      157,
+      173
+    ],
+    "clutter_bin": "low",
+    "coco_id": 334174,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.361175,
+    "image_id": "000000334174.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      465,
+      262,
+      134,
+      301
+    ],
+    "clutter_bin": "high",
+    "coco_id": 169468,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.212346,
+    "image_id": "000000169468.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      613,
+      164,
+      180,
+      213
+    ],
+    "clutter_bin": "high",
+    "coco_id": 357194,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.255731,
+    "image_id": "000000357194.jpg",
+    "n_subjects": 10,
+    "object_count": 19,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      1086,
+      374,
+      295,
+      308
+    ],
+    "clutter_bin": "low",
+    "coco_id": 327367,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.234244,
+    "image_id": "000000327367.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      862,
+      160,
+      229,
+      134
+    ],
+    "clutter_bin": "low",
+    "coco_id": 574110,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.295211,
+    "image_id": "000000574110.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "clock"
+  },
+  {
+    "bbox": [
+      49,
+      544,
+      101,
+      252
+    ],
+    "clutter_bin": "high",
+    "coco_id": 316842,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.4619,
+    "image_id": "000000316842.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      141,
+      91,
+      226,
+      449
+    ],
+    "clutter_bin": "high",
+    "coco_id": 564382,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.401843,
+    "image_id": "000000564382.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      1112,
+      623,
+      219,
+      416
+    ],
+    "clutter_bin": "low",
+    "coco_id": 431492,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.369456,
+    "image_id": "000000431492.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      948,
+      3,
+      337,
+      354
+    ],
+    "clutter_bin": "low",
+    "coco_id": 467726,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.367487,
+    "image_id": "000000467726.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      1194,
+      292,
+      144,
+      252
+    ],
+    "clutter_bin": "high",
+    "coco_id": 318174,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.273282,
+    "image_id": "000000318174.jpg",
+    "n_subjects": 10,
+    "object_count": 9,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      488,
+      561,
+      114,
+      150
+    ],
+    "clutter_bin": "high",
+    "coco_id": 567552,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.204961,
+    "image_id": "000000567552.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      459,
+      721,
+      643,
+      262
+    ],
+    "clutter_bin": "low",
+    "coco_id": 454731,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.313436,
+    "image_id": "000000454731.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      269,
+      26,
+      288,
+      498
+    ],
+    "clutter_bin": "low",
+    "coco_id": 533097,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.348267,
+    "image_id": "000000533097.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "cup"
+  },
+  {
+    "bbox": [
+      1102,
+      16,
+      433,
+      255
+    ],
+    "clutter_bin": "high",
+    "coco_id": 103628,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.461665,
+    "image_id": "000000103628.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      52,
+      321,
+      219,
+      88
+    ],
+    "clutter_bin": "high",
+    "coco_id": 343254,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.43166,
+    "image_id": "000000343254.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      1332,
+      482,
+      232,
+      561
+    ],
+    "clutter_bin": "low",
+    "coco_id": 483837,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.426775,
+    "image_id": "000000483837.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      85,
+      223,
+      131,
+      807
+    ],
+    "clutter_bin": "low",
+    "coco_id": 554980,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.421647,
+    "image_id": "000000554980.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      1250,
+      554,
+      160,
+      439
+    ],
+    "clutter_bin": "high",
+    "coco_id": 275202,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.375607,
+    "image_id": "000000275202.jpg",
+    "n_subjects": 10,
+    "object_count": 9,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      183,
+      462,
+      292,
+      567
+    ],
+    "clutter_bin": "high",
+    "coco_id": 304984,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.369618,
+    "image_id": "000000304984.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      649,
+      702,
+      360,
+      324
+    ],
+    "clutter_bin": "low",
+    "coco_id": 181627,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.322924,
+    "image_id": "000000181627.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      124,
+      334,
+      420,
+      105
+    ],
+    "clutter_bin": "low",
+    "coco_id": 207431,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.328808,
+    "image_id": "000000207431.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "fork"
+  },
+  {
+    "bbox": [
+      807,
+      794,
+      288,
+      101
+    ],
+    "clutter_bin": "high",
+    "coco_id": 52546,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.311376,
+    "image_id": "000000052546.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      311,
+      830,
+      849,
+      160
+    ],
+    "clutter_bin": "high",
+    "coco_id": 299987,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.371905,
+    "image_id": "000000299987.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      712,
+      843,
+      741,
+      183
+    ],
+    "clutter_bin": "low",
+    "coco_id": 295768,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.415855,
+    "image_id": "000000295768.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      1148,
+      511,
+      383,
+      177
+    ],
+    "clutter_bin": "low",
+    "coco_id": 431671,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.30567,
+    "image_id": "000000431671.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      587,
+      784,
+      574,
+      78
+    ],
+    "clutter_bin": "high",
+    "coco_id": 72051,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.28453,
+    "image_id": "000000072051.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      666,
+      656,
+      420,
+      105
+    ],
+    "clutter_bin": "high",
+    "coco_id": 182755,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.176071,
+    "image_id": "000000182755.jpg",
+    "n_subjects": 10,
+    "object_count": 9,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      275,
+      692,
+      564,
+      193
+    ],
+    "clutter_bin": "low",
+    "coco_id": 206701,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.302247,
+    "image_id": "000000206701.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      436,
+      725,
+      643,
+      95
+    ],
+    "clutter_bin": "low",
+    "coco_id": 578324,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.240775,
+    "image_id": "000000578324.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "keyboard"
+  },
+  {
+    "bbox": [
+      833,
+      0,
+      252,
+      88
+    ],
+    "clutter_bin": "high",
+    "coco_id": 102978,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.463539,
+    "image_id": "000000102978.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      0,
+      502,
+      288,
+      229
+    ],
+    "clutter_bin": "high",
+    "coco_id": 541562,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.423352,
+    "image_id": "000000541562.jpg",
+    "n_subjects": 10,
+    "object_count": 9,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      1387,
+      206,
+      236,
+      360
+    ],
+    "clutter_bin": "low",
+    "coco_id": 132638,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.417383,
+    "image_id": "000000132638.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      1473,
+      275,
+      200,
+      459
+    ],
+    "clutter_bin": "low",
+    "coco_id": 237453,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.436746,
+    "image_id": "000000237453.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      1289,
+      397,
+      242,
+      265
+    ],
+    "clutter_bin": "high",
+    "coco_id": 390463,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.339313,
+    "image_id": "000000390463.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      259,
+      282,
+      147,
+      341
+    ],
+    "clutter_bin": "high",
+    "coco_id": 405882,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.309874,
+    "image_id": "000000405882.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      1197,
+      269,
+      337,
+      439
+    ],
+    "clutter_bin": "low",
+    "coco_id": 207898,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.314723,
+    "image_id": "000000207898.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      262,
+      242,
+      127,
+      154
+    ],
+    "clutter_bin": "low",
+    "coco_id": 517617,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.363703,
+    "image_id": "000000517617.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "knife"
+  },
+  {
+    "bbox": [
+      1122,
+      475,
+      351,
+      259
+    ],
+    "clutter_bin": "high",
+    "coco_id": 26564,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.282651,
+    "image_id": "000000026564.jpg",
+    "n_subjects": 10,
+    "object_count": 19,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      269,
+      0,
+      502,
+      311
+    ],
+    "clutter_bin": "high",
+    "coco_id": 268992,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.400148,
+    "image_id": "000000268992.jpg",
+    "n_subjects": 10,
+    "object_count": 13,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      410,
+      748,
+      469,
+      282
+    ],
+    "clutter_bin": "low",
+    "coco_id": 363461,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.365677,
+    "image_id": "000000363461.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      1404,
+      213,
+      272,
+      354
+    ],
+    "clutter_bin": "low",
+    "coco_id": 486383,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.436052,
+    "image_id": "000000486383.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      357,
+      531,
+      177,
+      177
+    ],
+    "clutter_bin": "high",
+    "coco_id": 160498,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.251478,
+    "image_id": "000000160498.jpg",
+    "n_subjects": 10,
+    "object_count": 14,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      397,
+      397,
+      226,
+      232
+    ],
+    "clutter_bin": "low",
+    "coco_id": 158222,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.196761,
+    "image_id": "000000158222.jpg",
+    "n_subjects": 10,
+    "object_count": 9,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      229,
+      249,
+      397,
+      393
+    ],
+    "clutter_bin": "low",
+    "coco_id": 472080,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.256944,
+    "image_id": "000000472080.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "laptop"
+  },
+  {
+    "bbox": [
+      879,
+      45,
+      315,
+      164
+    ],
+    "clutter_bin": "high",
+    "coco_id": 395512,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.396683,
+    "image_id": "000000395512.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      101,
+      521,
+      305,
+      180
+    ],
+    "clutter_bin": "high",
+    "coco_id": 507958,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.358586,
+    "image_id": "000000507958.jpg",
+    "n_subjects": 10,
+    "object_count": 29,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      406,
+      16,
+      479,
+      292
+    ],
+    "clutter_bin": "low",
+    "coco_id": 445433,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.364585,
+    "image_id": "000000445433.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      928,
+      42,
+      334,
+      232
+    ],
+    "clutter_bin": "low",
+    "coco_id": 499480,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.381059,
+    "image_id": "000000499480.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      626,
+      259,
+      180,
+      111
+    ],
+    "clutter_bin": "high",
+    "coco_id": 45195,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.213632,
+    "image_id": "000000045195.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      1125,
+      433,
+      206,
+      91
+    ],
+    "clutter_bin": "high",
+    "coco_id": 581177,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.23516,
+    "image_id": "000000581177.jpg",
+    "n_subjects": 10,
+    "object_count": 18,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      567,
+      49,
+      354,
+      232
+    ],
+    "clutter_bin": "low",
+    "coco_id": 86408,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.347586,
+    "image_id": "000000086408.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      321,
+      331,
+      246,
+      167
+    ],
+    "clutter_bin": "low",
+    "coco_id": 365766,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.25814,
+    "image_id": "000000365766.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "microwave"
+  },
+  {
+    "bbox": [
+      1181,
+      787,
+      144,
+      167
+    ],
+    "clutter_bin": "high",
+    "coco_id": 322866,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.410739,
+    "image_id": "000000322866.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      1302,
+      574,
+      229,
+      167
+    ],
+    "clutter_bin": "high",
+    "coco_id": 394180,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.365622,
+    "image_id": "000000394180.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      141,
+      121,
+      337,
+      305
+    ],
+    "clutter_bin": "low",
+    "coco_id": 68765,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.396339,
+    "image_id": "000000068765.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      1145,
+      593,
+      344,
+      357
+    ],
+    "clutter_bin": "low",
+    "coco_id": 248631,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.368414,
+    "image_id": "000000248631.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      849,
+      173,
+      252,
+      213
+    ],
+    "clutter_bin": "high",
+    "coco_id": 329869,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.247233,
+    "image_id": "000000329869.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      1105,
+      607,
+      429,
+      308
+    ],
+    "clutter_bin": "high",
+    "coco_id": 424139,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.363291,
+    "image_id": "000000424139.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      843,
+      705,
+      416,
+      262
+    ],
+    "clutter_bin": "low",
+    "coco_id": 12463,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.321719,
+    "image_id": "000000012463.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      1072,
+      636,
+      206,
+      144
+    ],
+    "clutter_bin": "low",
+    "coco_id": 366527,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.264835,
+    "image_id": "000000366527.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "mouse"
+  },
+  {
+    "bbox": [
+      78,
+      511,
+      367,
+      472
+    ],
+    "clutter_bin": "high",
+    "coco_id": 96183,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.404074,
+    "image_id": "000000096183.jpg",
+    "n_subjects": 10,
+    "object_count": 19,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      1197,
+      646,
+      334,
+      377
+    ],
+    "clutter_bin": "high",
+    "coco_id": 275197,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.429149,
+    "image_id": "000000275197.jpg",
+    "n_subjects": 10,
+    "object_count": 24,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      141,
+      672,
+      301,
+      351
+    ],
+    "clutter_bin": "low",
+    "coco_id": 94052,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.448254,
+    "image_id": "000000094052.jpg",
+    "n_subjects": 10,
+    "object_count": 16,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      1447,
+      557,
+      196,
+      347
+    ],
+    "clutter_bin": "low",
+    "coco_id": 131980,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.463038,
+    "image_id": "000000131980.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      679,
+      735,
+      183,
+      311
+    ],
+    "clutter_bin": "high",
+    "coco_id": 340511,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.350545,
+    "image_id": "000000340511.jpg",
+    "n_subjects": 10,
+    "object_count": 18,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      1148,
+      587,
+      265,
+      364
+    ],
+    "clutter_bin": "low",
+    "coco_id": 460378,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.350358,
+    "image_id": "000000460378.jpg",
+    "n_subjects": 10,
+    "object_count": 4,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      337,
+      557,
+      315,
+      439
+    ],
+    "clutter_bin": "low",
+    "coco_id": 546428,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.315698,
+    "image_id": "000000546428.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "oven"
+  },
+  {
+    "bbox": [
+      144,
+      0,
+      242,
+      360
+    ],
+    "clutter_bin": "high",
+    "coco_id": 228335,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.47445,
+    "image_id": "000000228335.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      1207,
+      0,
+      246,
+      337
+    ],
+    "clutter_bin": "high",
+    "coco_id": 412878,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.4476,
+    "image_id": "000000412878.jpg",
+    "n_subjects": 10,
+    "object_count": 13,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      219,
+      685,
+      334,
+      328
+    ],
+    "clutter_bin": "low",
+    "coco_id": 226256,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.410177,
+    "image_id": "000000226256.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      1509,
+      357,
+      105,
+      255
+    ],
+    "clutter_bin": "low",
+    "coco_id": 302710,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.431193,
+    "image_id": "000000302710.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      666,
+      652,
+      216,
+      239
+    ],
+    "clutter_bin": "high",
+    "coco_id": 448309,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.238026,
+    "image_id": "000000448309.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      265,
+      525,
+      301,
+      308
+    ],
+    "clutter_bin": "high",
+    "coco_id": 486114,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.29216,
+    "image_id": "000000486114.jpg",
+    "n_subjects": 10,
+    "object_count": 44,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      167,
+      305,
+      236,
+      465
+    ],
+    "clutter_bin": "low",
+    "coco_id": 239180,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.330572,
+    "image_id": "000000239180.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      262,
+      262,
+      213,
+      344
+    ],
+    "clutter_bin": "low",
+    "coco_id": 327413,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.293732,
+    "image_id": "000000327413.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "potted plant"
+  },
+  {
+    "bbox": [
+      1214,
+      698,
+      406,
+      328
+    ],
+    "clutter_bin": "high",
+    "coco_id": 192440,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.470074,
+    "image_id": "000000192440.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      905,
+      784,
+      377,
+      187
+    ],
+    "clutter_bin": "high",
+    "coco_id": 341011,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.368066,
+    "image_id": "000000341011.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      141,
+      767,
+      239,
+      269
+    ],
+    "clutter_bin": "low",
+    "coco_id": 350833,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.497551,
+    "image_id": "000000350833.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      52,
+      748,
+      321,
+      295
+    ],
+    "clutter_bin": "low",
+    "coco_id": 505849,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.513828,
+    "image_id": "000000505849.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      278,
+      492,
+      285,
+      68
+    ],
+    "clutter_bin": "high",
+    "coco_id": 380247,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.249704,
+    "image_id": "000000380247.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      643,
+      698,
+      331,
+      68
+    ],
+    "clutter_bin": "high",
+    "coco_id": 392915,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.198032,
+    "image_id": "000000392915.jpg",
+    "n_subjects": 10,
+    "object_count": 7,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      1171,
+      485,
+      239,
+      160
+    ],
+    "clutter_bin": "low",
+    "coco_id": 166532,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.270847,
+    "image_id": "000000166532.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      160,
+      593,
+      360,
+      108
+    ],
+    "clutter_bin": "low",
+    "coco_id": 300245,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.319495,
+    "image_id": "000000300245.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "sink"
+  },
+  {
+    "bbox": [
+      144,
+      45,
+      462,
+      318
+    ],
+    "clutter_bin": "high",
+    "coco_id": 16931,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.412397,
+    "image_id": "000000016931.jpg",
+    "n_subjects": 10,
+    "object_count": 15,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      987,
+      9,
+      393,
+      397
+    ],
+    "clutter_bin": "high",
+    "coco_id": 511002,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.36502,
+    "image_id": "000000511002.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      1263,
+      639,
+      206,
+      213
+    ],
+    "clutter_bin": "low",
+    "coco_id": 116291,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.377,
+    "image_id": "000000116291.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      226,
+      111,
+      213,
+      226
+    ],
+    "clutter_bin": "low",
+    "coco_id": 304929,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.416452,
+    "image_id": "000000304929.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      439,
+      226,
+      134,
+      206
+    ],
+    "clutter_bin": "high",
+    "coco_id": 222094,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.272708,
+    "image_id": "000000222094.jpg",
+    "n_subjects": 10,
+    "object_count": 11,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      1187,
+      456,
+      206,
+      206
+    ],
+    "clutter_bin": "high",
+    "coco_id": 493682,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.269807,
+    "image_id": "000000493682.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      387,
+      210,
+      173,
+      167
+    ],
+    "clutter_bin": "low",
+    "coco_id": 104965,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.310163,
+    "image_id": "000000104965.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      1115,
+      692,
+      147,
+      147
+    ],
+    "clutter_bin": "low",
+    "coco_id": 415964,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.309022,
+    "image_id": "000000415964.jpg",
+    "n_subjects": 10,
+    "object_count": 1,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "stop sign"
+  },
+  {
+    "bbox": [
+      196,
+      656,
+      232,
+      282
+    ],
+    "clutter_bin": "high",
+    "coco_id": 72018,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.407285,
+    "image_id": "000000072018.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      738,
+      748,
+      521,
+      285
+    ],
+    "clutter_bin": "high",
+    "coco_id": 521359,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.360654,
+    "image_id": "000000521359.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      1177,
+      800,
+      318,
+      239
+    ],
+    "clutter_bin": "low",
+    "coco_id": 138819,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.477835,
+    "image_id": "000000138819.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      1476,
+      485,
+      144,
+      144
+    ],
+    "clutter_bin": "low",
+    "coco_id": 514914,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.422529,
+    "image_id": "000000514914.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      961,
+      731,
+      127,
+      213
+    ],
+    "clutter_bin": "high",
+    "coco_id": 10800,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.317235,
+    "image_id": "000000010800.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      567,
+      679,
+      131,
+      242
+    ],
+    "clutter_bin": "high",
+    "coco_id": 340934,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.289567,
+    "image_id": "000000340934.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      1023,
+      485,
+      190,
+      495
+    ],
+    "clutter_bin": "low",
+    "coco_id": 403385,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.257751,
+    "image_id": "000000403385.jpg",
+    "n_subjects": 10,
+    "object_count": 2,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      990,
+      630,
+      219,
+      364
+    ],
+    "clutter_bin": "low",
+    "coco_id": 419081,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.313959,
+    "image_id": "000000419081.jpg",
+    "n_subjects": 10,
+    "object_count": 3,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "toilet"
+  },
+  {
+    "bbox": [
+      1095,
+      137,
+      341,
+      213
+    ],
+    "clutter_bin": "high",
+    "coco_id": 155546,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.368813,
+    "image_id": "000000155546.jpg",
+    "n_subjects": 10,
+    "object_count": 12,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      1227,
+      295,
+      344,
+      206
+    ],
+    "clutter_bin": "high",
+    "coco_id": 471816,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.35404,
+    "image_id": "000000471816.jpg",
+    "n_subjects": 10,
+    "object_count": 20,
+    "split": "valid",
+    "stratum": "far-high",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      416,
+      164,
+      141,
+      154
+    ],
+    "clutter_bin": "low",
+    "coco_id": 422654,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.342684,
+    "image_id": "000000422654.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      344,
+      193,
+      196,
+      150
+    ],
+    "clutter_bin": "low",
+    "coco_id": 492970,
+    "condition": "TP",
+    "ecc_bin": "far",
+    "eccentricity": 0.340635,
+    "image_id": "000000492970.jpg",
+    "n_subjects": 10,
+    "object_count": 8,
+    "split": "valid",
+    "stratum": "far-low",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      1184,
+      659,
+      173,
+      173
+    ],
+    "clutter_bin": "high",
+    "coco_id": 86650,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.331307,
+    "image_id": "000000086650.jpg",
+    "n_subjects": 10,
+    "object_count": 18,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      324,
+      502,
+      154,
+      147
+    ],
+    "clutter_bin": "high",
+    "coco_id": 349915,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.265699,
+    "image_id": "000000349915.jpg",
+    "n_subjects": 10,
+    "object_count": 10,
+    "split": "valid",
+    "stratum": "near-high",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      367,
+      413,
+      252,
+      193
+    ],
+    "clutter_bin": "low",
+    "coco_id": 39963,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.207074,
+    "image_id": "000000039963.jpg",
+    "n_subjects": 10,
+    "object_count": 6,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "tv"
+  },
+  {
+    "bbox": [
+      1194,
+      393,
+      262,
+      206
+    ],
+    "clutter_bin": "low",
+    "coco_id": 352286,
+    "condition": "TP",
+    "ecc_bin": "near",
+    "eccentricity": 0.290009,
+    "image_id": "000000352286.jpg",
+    "n_subjects": 10,
+    "object_count": 5,
+    "split": "valid",
+    "stratum": "near-low",
+    "target_category": "tv"
+  }
+]

@@ -1,0 +1,20 @@
+\begin{tabular}{llcc}
+\toprule
+model & metric & sharp $\Delta$ [95\% CI] & GP $\Delta$ [95\% CI] \\
+\midrule
+Qwen3.5-35B-A3B & gaze entropy & \textbf{$-0.62$ [$-0.69,-0.56$]} & \textbf{$-0.61$ [$-0.67,-0.54$]} \\
+ & saccade amp. & \textbf{$+4.57$ [$+3.19,+5.95$]} & \textbf{$+4.53$ [$+3.15,+5.91$]} \\
+ & NumFix & \textbf{$-1.53$ [$-1.94,-1.13$]} & \textbf{$-1.49$ [$-1.89,-1.08$]} \\
+ & TFP@1 & \textbf{$+0.47$ [$+0.40,+0.54$]} & \textbf{$+0.48$ [$+0.41,+0.55$]} \\
+\midrule
+GLM-4.6V-Flash & gaze entropy & \textbf{$-0.60$ [$-0.67,-0.52$]} & \textbf{$-0.60$ [$-0.67,-0.52$]} \\
+ & saccade amp. & \textbf{$+5.58$ [$+4.84,+6.32$]} & \textbf{$+5.62$ [$+4.88,+6.35$]} \\
+ & NumFix & \textbf{$-1.51$ [$-1.89,-1.13$]} & \textbf{$-1.60$ [$-1.98,-1.22$]} \\
+ & TFP@1 & \textbf{$+0.48$ [$+0.40,+0.56$]} & \textbf{$+0.48$ [$+0.40,+0.56$]} \\
+\midrule
+Gemma-4-E4B & gaze entropy & \textbf{$-0.23$ [$-0.33,-0.14$]} & \textbf{$-0.22$ [$-0.31,-0.12$]} \\
+ & saccade amp. & \textbf{$+2.17$ [$+1.34,+3.00$]} & \textbf{$+2.20$ [$+1.37,+3.03$]} \\
+ & NumFix & $-0.26$ [$-0.78,+0.27$] & $-0.03$ [$-0.55,+0.49$] \\
+ & TFP@1 & \textbf{$+0.31$ [$+0.19,+0.42$]} & \textbf{$+0.30$ [$+0.19,+0.41$]} \\
+\bottomrule
+\end{tabular}
