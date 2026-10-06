@@ -25,6 +25,18 @@ current gaze point, the model replies `LOOK x,y`, `FOUND x,y` or `ABSENT`, and t
 harness injects no saliency, proposals or stopping rule, so where to look and when to stop are entirely
 the model's choice. The model scanpaths are compared with the ten human scanpaths recorded for each scene.
 
+### Method
+
+<p align="center"><img src="assets/method_loop.png" width="100%" alt="Harness loop on a real episode"></p>
+
+*The harness loop on a real logged episode. A foveated glimpse is rendered at the current gaze (red +);
+the model replies with one directive; the gaze moves; repeat until the model says FOUND or ABSENT.*
+
+<p align="center"><img src="assets/foveation_bracket.png" width="70%" alt="Foveation bracket"></p>
+
+*The foveation bracket on one scene. Only Geisler–Perry is human-matched; at the real viewing geometry it
+is mild. The gist-k ladder and crop are synthetic degradations.*
+
 **Result.** The models match or beat humans on two of three axes, but not on the third:
 
 | Axis | Measure | Qwen / GLM / Gemma | Human |
@@ -33,11 +45,28 @@ the model's choice. The model scanpaths are compared with the ten human scanpath
 | **Finding** (does gaze reach the target?) | first-saccade target hit rate (TFP@1) | 0.97 / 0.97 / 0.80 | 0.49 |
 | **Gaze process** | cross-seed self-consistency (ScanMatch) | 0.84 / 0.91 / 0.71 | 0.53 (inter-observer ceiling) |
 
+<p align="center"><img src="assets/dissociation.png" width="100%" alt="Three-axis dissociation"></p>
+
 On the gaze process all three models share one non-human signature: low-entropy, large-amplitude
 scanpaths that agree with themselves far more than two humans agree with each other.
 
 Making peripheral acuity worse never produces a regime where the models search like humans *and* still
 find the target.
+
+### Examples
+
+<p align="center"><img src="assets/examples.png" width="100%" alt="Human vs model scanpaths"></p>
+
+*Human (blue) vs. Qwen3.5-35B-A3B (red) scanpaths on the same scenes, across foveation conditions. The green
+box is the target; numbers give fixation order. Under sharp and human-matched foveation the model jumps
+straight to the target; humans take a few fixations.*
+
+### More results
+
+| First-saccade targeting | No human-like regime | Gaze-signature space |
+|---|---|---|
+| <img src="assets/tfp_curves.png" alt="TFP curves"> | <img src="assets/gist_sweep.png" alt="Gist sweep"> | <img src="assets/pca.png" alt="PCA"> |
+| Models reach the target on saccade 1; human probability builds over several fixations. | As peripheral acuity drops, first-saccade targeting (solid) and eventual success (dashed) fall together. | All three models sit apart from humans (★) under the legible conditions. |
 
 ## Repository layout
 
@@ -49,6 +78,7 @@ tests/        unit tests (foveation golden images, parser, harness smoke, metric
 data/         frozen subset ID lists (image_ids_{tp,ta}.json) + sampling manifest
 docs/         dataset report, experimental methods, comparison plan, pre-run gates
 paper/        LaTeX sources and PDFs of the paper and supplement
+assets/       README figures
 ```
 
 ## Setup
