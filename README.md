@@ -1,5 +1,10 @@
 # MODG — Matched Outcomes, Divergent Gaze
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.16514-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2608.16514)
+[![Dataset on HF](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Amine--CV%2FMODG-yellow)](https://huggingface.co/datasets/Amine-CV/MODG)
+[![License: MIT](https://img.shields.io/badge/License-MIT%20%2B%20third--party%20data-blue.svg)](LICENSE)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB.svg?logo=python&logoColor=white)](requirements.txt)
+
 Code, analysis pipeline and paper for **"Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search
 Compared to Humans."**
 
